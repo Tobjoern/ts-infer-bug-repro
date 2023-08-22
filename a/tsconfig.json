@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "CommonJS",
+    "lib": [
+      "es2017",
+      "es7",
+      "es6",
+      "dom"
+    ],
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "declarationMap": true, /* Generates a sourcemap for each corresponding '.d.ts' file. */
+    "sourceMap": true, /* Generates corresponding '.map' file. */
+    // "outFile": "./",                       /* Concatenate and emit output to single file. */
+    "outDir": "./dist", /* Redirect output structure to the directory. */
+    "types": [],
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "preserveSymlinks": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src"
+  ]
+}
+// {
+//   "$schema": "https://json.schemastore.org/tsconfig",
+//   "display": "Default",
+//   "compilerOptions": {
+//     "composite": false,
+//     "declaration": true,
+//     "declarationMap": true,
+//     "esModuleInterop": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "inlineSources": false,
+//     "isolatedModules": true,
+//     "moduleResolution": "node",
+//     "noUnusedLocals": false,
+//     "noUnusedParameters": false,
+//     "preserveWatchOutput": true,
+//     "skipLibCheck": true,
+//     "strict": true,
+//     "lib": [
+//       "ES2015"
+//     ],
+//     "module": "CommonJS",
+//     "outDir": "./dist",
+//     "rootDir": "./src"
+//   },
+//   "exclude": [
+//     "node_modules"
+//   ],
+//   "include": [
+//     "src"
+//   ]
+// }
